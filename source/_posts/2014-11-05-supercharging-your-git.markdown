@@ -89,8 +89,7 @@ love to use? At some point all of us have added commands as aliases in
 This is not inherently bad, but it can go out of hand pretty quickly. Moreover,
 you don't really have a lot of scripting power with these aliases. As you might
 have guessed by now, there is a better way of doing this and it is so cool that
-even some of the [builtin commands use this
-strategy](https://github.com/git/git/blob/master/git-bisect.sh).
+even some of the [builtin commands use this strategy](https://github.com/git/git/blob/master/git-bisect.sh).
 
 The basic idea is that any executable script on you `PATH` that is named
 `git-some-name` will be available as a git subcommand, which means you could do
@@ -133,6 +132,6 @@ be able to type `g hello` and have git say "Hello" back.
 ### Further reading
 
 If you want to check some actual examples you can do it in [my dotfiles](https://github.com/zamith/dotfiles/tree/master/git_plugins)
-or in [Wynn Netherland's dotfiles](https://github.com/pengwynn/dotfiles/tree/master/bin.).
+or in [Wynn Netherland's dotfiles](https://github.com/pengwynn/dotfiles/tree/master/bin).
 This post was inspired by a talk given by Wynn at the [DallasRB meetup](http://www.dallasrb.org/),
 so do check his stuff.
